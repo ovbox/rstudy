@@ -1,16 +1,7 @@
 {
 	"name": "R (Community)",
 	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {
-			// Update VARIANT to pick a R version: 4, 4.1, 4.0
-			"VARIANT": "3.6",
-			// Start with a minimal image (rocker/r-ver) or a expanded image.
-			// See more details about rocker/r-ver's derived images: https://github.com/rocker-org/rocker-versioned2
-			"BASE_IMAGE": "rocker/r-ver",
-			// Options
-			"ENABLE_JUPYTER": "false"
-		}
+		"dockerfile": "Dockerfile"
 	},
 
 	// Configure tool-specific properties.
