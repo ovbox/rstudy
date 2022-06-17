@@ -28,6 +28,7 @@ BiocManager::install("KEGG.db",ask = F,update = F)
 BiocManager::install(c("GSEABase","GSVA","clusterProfiler" ),ask = F,update = F)
 BiocManager::install(c("GEOquery","limma","impute" ),ask = F,update = F)
 BiocManager::install(c("genefu","org.Hs.eg.db","hgu133plus2.db" ),ask = F,update = F)
+BiocManager::install("preprocessCore", ask = F, update = F)
 
 
 # source("https://bioconductor.org/biocLite.R") 
